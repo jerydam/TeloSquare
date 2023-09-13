@@ -5,9 +5,7 @@ libs = ["lib"]
 verbosity=5
 ffi=true
 [rpc_endpoints]
-sepolia = "${SEPOLIA_RPC}"
+sepolia = "${Telos_rpc}"
 
-[etherscan]
-sepolia = { key = "${ETHERSCAN_API}" }
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config

@@ -5,7 +5,6 @@ import "../lib/openzeppelin-contracts/contracts/token/ERC721/ERC721.sol";
 import "../lib/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "../lib/openzeppelin-contracts/contracts/utils/Counters.sol";
 
-
 contract Poap is ERC721, ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
@@ -15,7 +14,7 @@ contract Poap is ERC721, ERC721URIStorage {
         Admin = _admin;
     }
 
-
+//minting of event nft
     function safeMint(address to, uint256 _tokenId)
         external
 
